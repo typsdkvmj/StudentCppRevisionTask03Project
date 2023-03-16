@@ -31,5 +31,10 @@
 */
 
 bool task03(int width, int length, int a, int b) {
-	return false;
+
+
+
+
+
+	return  width > 0 && length > 0 && a > 0 && b > 0 && ((width <= a && length <= b) || (width <= b && length <= a));
 }
