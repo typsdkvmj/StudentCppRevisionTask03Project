@@ -40,6 +40,7 @@ int task01(int number) {
 
 	number = number < 0 ? number * -1 : number;
 
+
 	int a = number % 10;
 	int b = number / 10 % 10;
 	int c = number / 100 % 10;

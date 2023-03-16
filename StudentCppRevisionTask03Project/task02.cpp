@@ -52,5 +52,6 @@
 */
 
 string task02(int a, int b, int n) {
-	return "error";
+
+	return ((a >= 0 && b > 0 && n > 0) || (a > 0 && b >= 0 && n > 0)) ? to_string((a * n) + (b * n / 100)) + " " + to_string(b * n % 100) : "error";
 }
